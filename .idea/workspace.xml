@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="update .env">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab306c9c-8a72-4c0a-9334-d408e59da2cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab306c9c-8a72-4c0a-9334-d408e59da2cf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="update .env" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +126,7 @@
       <workItem from="1762575511664" duration="195000" />
       <workItem from="1764381984162" duration="109000" />
       <workItem from="1764991209036" duration="3191000" />
-      <workItem from="1764994435844" duration="2023000" />
+      <workItem from="1764994435844" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="Added password dependencies">
       <option name="closed" value="true" />
@@ -155,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764995919634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update .env">
+      <option name="closed" value="true" />
+      <created>1764996590886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764996590886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
