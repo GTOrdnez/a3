@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="update .env">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab306c9c-8a72-4c0a-9334-d408e59da2cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab306c9c-8a72-4c0a-9334-d408e59da2cf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "C:/Users/guill/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/25.1.0/node",
     "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Debug",
+    "npm.start.executor": "Run",
     "npm.test.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -128,7 +129,7 @@
       <workItem from="1762575511664" duration="195000" />
       <workItem from="1764381984162" duration="109000" />
       <workItem from="1764991209036" duration="3191000" />
-      <workItem from="1764994435844" duration="1402000" />
+      <workItem from="1764994435844" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary="Added password dependencies">
       <option name="closed" value="true" />
@@ -146,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764995253445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update .env">
+      <option name="closed" value="true" />
+      <created>1764995919634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764995919634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
