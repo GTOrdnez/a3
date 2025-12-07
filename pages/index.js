@@ -1,3 +1,18 @@
+/*********************************************************************************
+ *  WEB422 – Assignment 3
+ *
+ *  I declare that this assignment is my own work in accordance with Seneca's
+ *  Academic Integrity Policy:
+ *
+ *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+ *
+ *  Name: Guillermo Torrez Student ID: 145795233 Date: Dec 6th, 2025
+ *
+ *  Vercel App (Deployed) Link: _____________________________________________________
+ *
+ ********************************************************************************/
+
+
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 import { Form, Button } from "react-bootstrap";
