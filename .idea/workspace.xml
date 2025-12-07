@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="added a2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,24 +16,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;GTOrdnez&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GTOrdnez/a3.git&quot;,
-    &quot;accountId&quot;: &quot;9b6175a0-1e12-41a5-ba87-f3e1fca20a23&quot;
-  }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -52,65 +30,34 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;25.2.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.10.1&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;25.1.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.10.0&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guill/WebstormProjects/a3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/guill/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/25.1.0/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\guill\WebstormProjects\a3" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/25.2.1/node" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Next.js: debug client-side" />
-      <item itemvalue="npm.start" />
-      <item itemvalue="npm.test" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,71 +76,13 @@
       <workItem from="1762570970485" duration="4184000" />
       <workItem from="1762575511664" duration="195000" />
       <workItem from="1764381984162" duration="109000" />
-      <workItem from="1764991209036" duration="3191000" />
-      <workItem from="1764994435844" duration="2894000" />
-      <workItem from="1764997400792" duration="35000" />
+      <workItem from="1764899643220" duration="3627000" />
+      <workItem from="1764988188735" duration="991000" />
+      <workItem from="1764997358293" duration="42000" />
     </task>
-    <task id="LOCAL-00001" summary="Added password dependencies">
-      <option name="closed" value="true" />
-      <created>1764994666893</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1764994666893</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update .env">
-      <option name="closed" value="true" />
-      <created>1764995253445</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1764995253445</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update .env">
-      <option name="closed" value="true" />
-      <created>1764995919634</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1764995919634</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update .env">
-      <option name="closed" value="true" />
-      <created>1764996590886</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1764996590886</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update .env">
-      <option name="closed" value="true" />
-      <created>1764997066600</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1764997066600</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added password dependencies" />
-    <MESSAGE value="update .env" />
-    <MESSAGE value="added a2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a2" />
   </component>
 </project>
