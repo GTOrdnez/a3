@@ -4,7 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="f" />
+    <list default="true" id="6802c7ea-cda1-461d-bc86-f883b965f226" name="Changes" comment="App complete">
+      <change afterPath="$PROJECT_DIR$/components/RouteGuard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/authenticate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/userData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/10.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/10.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/11.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/11.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/12.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/12.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/13.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/13.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/14.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/14.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/15.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/15.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/5.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/5.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/9.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/9.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/10.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/10.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/11.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/11.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/12.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/12.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/prerender-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/prerender-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/@babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@swc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/@swc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/react-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/react-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/_pages-dir-browser_node_modules_next_dist_pages__error_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/_pages-dir-browser_node_modules_next_dist_pages__error_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/_error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/react-refresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/react-refresh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/01bb7fc3a1070f02.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/f7204459a26ed768.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.01bb7fc3a1070f02.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.f7204459a26ed768.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BookDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MainNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/favourites.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/favourites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +92,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Public Environment File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GTOrdnez"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GTOrdnez/a3.git",
+    "accountId": "9b6175a0-1e12-41a5-ba87-f3e1fca20a23"
+  }
+}]]></component>
+  <component name="HttpClientOnboardingState"><![CDATA[{
+  "isOnboardingCommentShown": true
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -30,27 +130,60 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "HTTP Request.All in request.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "25.1.0",
     "javascript.nodejs.core.library.typings.version": "24.10.0",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/guill/WebstormProjects/a3/user-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "C:/Users/guill/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/25.1.0/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guill\WebstormProjects\a3\user-api" />
+      <recent name="C:\Users\guill\WebstormProjects\a3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\guill\WebstormProjects\a3\user-api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="All in request" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="All in request" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/user-api/request.http">
+      <method v="2" />
+    </configuration>
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -64,6 +197,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in request" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -85,7 +223,7 @@
       <workItem from="1764899643220" duration="3627000" />
       <workItem from="1764988188735" duration="991000" />
       <workItem from="1764997358293" duration="42000" />
-      <workItem from="1765076590110" duration="392000" />
+      <workItem from="1765076590110" duration="10858000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <option name="closed" value="true" />
@@ -95,7 +233,47 @@
       <option name="project" value="LOCAL" />
       <updated>1765076786820</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1765077097215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765077097215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="User API complete">
+      <option name="closed" value="true" />
+      <created>1765081028632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765081028632</updated>
+    </task>
+    <task id="LOCAL-00004" summary="User API completed">
+      <option name="closed" value="true" />
+      <created>1765082976653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765082976653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="User API completed">
+      <option name="closed" value="true" />
+      <created>1765084499981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765084499981</updated>
+    </task>
+    <task id="LOCAL-00006" summary="User API completed">
+      <option name="closed" value="true" />
+      <created>1765084892696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765084892696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +309,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="User API complete" />
+    <MESSAGE value="User API completed" />
+    <MESSAGE value="App complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="App complete" />
   </component>
 </project>

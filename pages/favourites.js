@@ -7,6 +7,8 @@ import BookCard from "@/components/BookCard";
 export default function Favourites() {
     const [favouritesList] = useAtom(favouritesAtom);
 
+    if (!favouritesList) return null;
+
     return (
         <Container>
             {favouritesList.length > 0 ? (

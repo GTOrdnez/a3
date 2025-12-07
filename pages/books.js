@@ -13,7 +13,7 @@ export default function Books() {
     const queryString = new URLSearchParams(router.query).toString();
 
     const { data, error } = useSWR(
-        `https://openlibrary.org/search.json?${queryString}&page=${page}&limit=10`
+        `https://openlibrary.org/search.json?${queryString}&page=${page}&`
     );
 
     useEffect(() => {
