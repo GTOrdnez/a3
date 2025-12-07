@@ -8,7 +8,7 @@
  *
  *  Name: Guillermo Torrez Student ID: 145795233 Date: Dec 6th, 2025
  *
- *  Vercel App (Deployed) Link: _____________________________________________________
+ *  Vercel App (Deployed) Link: https://a3-delta-one.vercel.app/login
  *
  ********************************************************************************/
 
